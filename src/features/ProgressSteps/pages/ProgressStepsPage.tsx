@@ -4,11 +4,16 @@ import { ProgressSteps } from "../components/ProgressSteps";
 export const ProgressStepsPage = () => {
   const steps = ["1", "2", "3", "4"];
   const [currentIndex, setCurrentIndex] = useState(0);
-
+  const style = {
+    fontFamily: "'Muli', sans-serif",
+  };
   const lastStep = steps.length - 1;
 
   return (
-    <div className=" box-border bg-[#f1f1f1] flex flex-col items-center justify-center h-screen overflow-hidden m-0 ">
+    <div
+      className=" box-border bg-[#f1f1f1] flex flex-col items-center justify-center h-screen overflow-hidden m-0 "
+      style={style}
+    >
       <ProgressSteps steps={steps} currentIndex={currentIndex} />
       <div className=" flex items-center gap-10">
         <button

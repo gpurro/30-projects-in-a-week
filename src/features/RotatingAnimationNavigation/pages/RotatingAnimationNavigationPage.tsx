@@ -1,18 +1,20 @@
 import { FaBars, FaTimes } from "react-icons/fa";
 
 import { NavMenu } from "../components/NavMenu";
-import "./RotatingAnimationNavigationPage.css";
 import { useState } from "react";
 
 export const RotatingAnimationNavigationPage = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+  const style = {
+    fontFamily: "'Lato', sans-serif",
+  };
   return (
-    <>
+    <div className=" bg-[#333] text-[#222] overflow-x-hidden">
       <div
         className={` bg-[#fafafa] origin-top-left transform duration-500 linear w-full min-h-screen p-[50px] ${
           isMenuOpen ? " -rotate-[20deg] " : ""
         }`}
+        style={style}
       >
         <div className=" fixed -top-[100px] -left-[100px]">
           <div
@@ -74,6 +76,6 @@ export const RotatingAnimationNavigationPage = () => {
         </div>
       </div>
       <NavMenu isMenuOpen={isMenuOpen} />
-    </>
+    </div>
   );
 };

@@ -2,8 +2,15 @@ import { Panel } from "../components/Panel";
 import { Panels } from "../components/Panels";
 
 export const ExpandingCardsPage = () => {
+  const style = {
+    fontFamily: "'Muli', sans-serif",
+  };
+  
   return (
-    <div className=" box-border bg-[#f1f1f1] flex items-center justify-center h-screen overflow-hidden m-0 ">
+    <div
+      className=" box-border bg-[#f1f1f1] flex items-center justify-center h-screen overflow-hidden m-0 "
+      style={style}
+    >
       <Panels>
         <Panel
           active

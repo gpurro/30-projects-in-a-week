@@ -1,5 +1,3 @@
-import "./ProgressSteps.css";
-
 interface ProgressStepsProps {
   steps: string[];
   currentIndex: number;
