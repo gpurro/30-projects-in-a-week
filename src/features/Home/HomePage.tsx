@@ -12,6 +12,11 @@ export const HomePage = () => {
           <li>
             <Link to="/progress-steps">Progress Steps</Link>
           </li>
+          <li>
+            <Link to="/rotating-animation-navigation">
+              Rotating Animation Navigation
+            </Link>
+          </li>
         </ul>
       </div>
     </div>
