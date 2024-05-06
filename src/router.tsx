@@ -1,8 +1,8 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createHashRouter } from "react-router-dom";
 import { HomePage } from "./features/Home/HomePage";
 import { ExpandingCardsPage } from "./features/ExpandingCards/pages/ExpandingCardsPage";
 
-export const router = createBrowserRouter(
+export const router = createHashRouter(
   [
     {
       path: "/",
