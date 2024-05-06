@@ -3,6 +3,7 @@ import { HomePage } from "./features/Home/HomePage";
 import { ExpandingCardsPage } from "./features/ExpandingCards/pages/ExpandingCardsPage";
 import { ProgressStepsPage } from "./features/ProgressSteps/pages/ProgressStepsPage";
 import { RotatingAnimationNavigationPage } from "./features/RotatingAnimationNavigation/pages/RotatingAnimationNavigationPage";
+import { HiddenSearchWidgetPage } from "./features/HiddenSearchWidget/pages/HiddenSearchWidgetPage";
 
 export const router = createHashRouter(
   [
@@ -21,6 +22,10 @@ export const router = createHashRouter(
     {
       path: "/rotating-animation-navigation",
       element: <RotatingAnimationNavigationPage />,
+    },
+    {
+      path: "/hidden-search-widget",
+      element: <HiddenSearchWidgetPage />,
     },
     {
       path: "*",

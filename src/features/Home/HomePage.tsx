@@ -17,6 +17,9 @@ export const HomePage = () => {
               Rotating Animation Navigation
             </Link>
           </li>
+          <li>
+            <Link to="/hidden-search-widget">Hidden Search Widget</Link>
+          </li>
         </ul>
       </div>
     </div>
