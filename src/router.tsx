@@ -4,6 +4,7 @@ import { ExpandingCardsPage } from "./features/ExpandingCards/pages/ExpandingCar
 import { ProgressStepsPage } from "./features/ProgressSteps/pages/ProgressStepsPage";
 import { RotatingAnimationNavigationPage } from "./features/RotatingAnimationNavigation/pages/RotatingAnimationNavigationPage";
 import { HiddenSearchWidgetPage } from "./features/HiddenSearchWidget/pages/HiddenSearchWidgetPage";
+import { FormInputWavePage } from "./features/FormInputWave/pages/FormInputWavePage";
 
 export const router = createHashRouter(
   [
@@ -26,6 +27,10 @@ export const router = createHashRouter(
     {
       path: "/hidden-search-widget",
       element: <HiddenSearchWidgetPage />,
+    },
+    {
+      path: "/form-input-wave",
+      element: <FormInputWavePage />,
     },
     {
       path: "*",

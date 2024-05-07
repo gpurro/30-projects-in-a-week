@@ -20,6 +20,9 @@ export const HomePage = () => {
           <li>
             <Link to="/hidden-search-widget">Hidden Search Widget</Link>
           </li>
+          <li>
+            <Link to="/form-input-wave">Form Input Wave</Link>
+          </li>
         </ul>
       </div>
     </div>
