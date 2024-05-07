@@ -1,11 +1,12 @@
 # new-react-app
 
-This template is based on Vite React/Typescript template and adds the following features:
+30 Projects in a Week
 
+All the projects are using:
+
+- Vite React/Typescript
+- TailwindCss
 - React Router
-- Axios
-- React Query
 - React Icons
 
-
-
+[Live Demo](https://30-projects-in-a-week.netlify.app/)
