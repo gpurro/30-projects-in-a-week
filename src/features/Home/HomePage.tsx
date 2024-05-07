@@ -23,6 +23,9 @@ export const HomePage = () => {
           <li>
             <Link to="/form-input-wave">Form Input Wave</Link>
           </li>
+          <li>
+            <Link to="/pokedex">Pokedex</Link>
+          </li>
         </ul>
       </div>
     </div>

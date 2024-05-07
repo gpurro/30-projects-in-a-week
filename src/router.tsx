@@ -5,6 +5,7 @@ import { ProgressStepsPage } from "./features/ProgressSteps/pages/ProgressStepsP
 import { RotatingAnimationNavigationPage } from "./features/RotatingAnimationNavigation/pages/RotatingAnimationNavigationPage";
 import { HiddenSearchWidgetPage } from "./features/HiddenSearchWidget/pages/HiddenSearchWidgetPage";
 import { FormInputWavePage } from "./features/FormInputWave/pages/FormInputWavePage";
+import { PokedexPage } from "./features/Pokedex/pages/PokedexPage";
 
 export const router = createHashRouter(
   [
@@ -31,6 +32,10 @@ export const router = createHashRouter(
     {
       path: "/form-input-wave",
       element: <FormInputWavePage />,
+    },
+    {
+      path: "/pokedex",
+      element: <PokedexPage />,
     },
     {
       path: "*",
