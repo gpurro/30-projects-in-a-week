@@ -6,6 +6,7 @@ import { RotatingAnimationNavigationPage } from "./features/RotatingAnimationNav
 import { HiddenSearchWidgetPage } from "./features/HiddenSearchWidget/pages/HiddenSearchWidgetPage";
 import { FormInputWavePage } from "./features/FormInputWave/pages/FormInputWavePage";
 import { PokedexPage } from "./features/Pokedex/pages/PokedexPage";
+import { CalculatorPage } from "./features/Calculator/pages/CalculatorPage";
 
 export const router = createHashRouter(
   [
@@ -36,6 +37,10 @@ export const router = createHashRouter(
     {
       path: "/pokedex",
       element: <PokedexPage />,
+    },
+    {
+      path: "/calculator",
+      element: <CalculatorPage />,
     },
     {
       path: "*",
