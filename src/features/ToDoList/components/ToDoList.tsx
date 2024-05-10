@@ -4,9 +4,11 @@ import { ListHeader } from "./ListHeader";
 
 export const ToDoList = () => {
   return (
-    <ToDoContextProvider>
-      <ListHeader />
-      <ListBody />
-    </ToDoContextProvider>
+    <div className="w-full flex flex-col ">
+      <ToDoContextProvider>
+        <ListHeader />
+        <ListBody />
+      </ToDoContextProvider>
+    </div>
   );
 };

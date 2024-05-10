@@ -1,0 +1,1 @@
+export const fakeToDoItems = `[{"id":"0.42276316762833765","text":"Plant a tree","status":"pending","createdAt":"2024-05-10T18:55:04.935Z"},{"id":"0.9620731251024011","text":"Have a child","status":"complete","createdAt":"2024-05-10T18:50:23.655Z"},{"id":"0.09883489146986335","text":"Read a book","status":"complete","createdAt":"2024-05-10T18:50:31.054Z"}]`;

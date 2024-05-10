@@ -9,7 +9,7 @@ export const ListHeader = () => {
       id: Math.random().toString(),
       text: "New Task",
       status: "draft",
-      createdAt: new Date(),
+      createdAt: new Date().toISOString(),
     };
 
     addTask(newTask);
@@ -22,8 +22,8 @@ export const ListHeader = () => {
   };
 
   return (
-    <div>
-      <div>
+    <div className=" m-0 flex flex-row justify-between ">
+      <div className="">
         <button
           onClick={handleOnClick}
           className=" bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-md active:scale-95 "
@@ -32,7 +32,11 @@ export const ListHeader = () => {
         </button>
       </div>
       <div>
-        <select onChange={handleOnFilterChange} value={filter}>
+        <select
+          onChange={handleOnFilterChange}
+          className=" text-lg text-black font-bold py-2 px-4 rounded-md"
+          value={filter}
+        >
           <option value="all">All</option>
           <option value="complete">Complete</option>
           <option value="pending">Pending</option>

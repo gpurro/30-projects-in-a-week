@@ -1,5 +1,6 @@
 import { createContext, useState } from "react";
 import { Task } from "../interfaces/Task";
+import { fakeToDoItems } from "../data/fakeData";
 
 interface ToDoContextType {
   tasks: Task[];
@@ -17,7 +18,7 @@ export const ToDoContextProvider = ({
   children: React.ReactNode;
 }) => {
   const initialTasks: Task[] = JSON.parse(
-    localStorage.getItem("tasks") || "[]"
+    localStorage.getItem("tasks") || fakeToDoItems
   );
 
   const [filter, setFilter] = useState<string>("all");
