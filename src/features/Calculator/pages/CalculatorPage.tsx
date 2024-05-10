@@ -8,7 +8,7 @@ export const CalculatorPage = () => {
 
   return (
     <div className=" text-white relative w-screen h-screen flex" style={style}>
-      <div className=" w-1/3 m-auto aspect-square ">
+      <div className=" w-1/3 m-auto aspect-square min-w-[350px]">
         <Calculator></Calculator>
       </div>
     </div>
