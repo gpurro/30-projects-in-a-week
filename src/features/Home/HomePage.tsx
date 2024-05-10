@@ -32,6 +32,9 @@ export const HomePage = () => {
           <li>
             <Link to="/tic-tac-toe">Tic Tac Toe</Link>
           </li>
+          <li>
+            <Link to="/to-do-list">To-Do List</Link>
+          </li>
         </ul>
       </div>
     </div>

@@ -8,6 +8,7 @@ import { FormInputWavePage } from "./features/FormInputWave/pages/FormInputWaveP
 import { PokedexPage } from "./features/Pokedex/pages/PokedexPage";
 import { CalculatorPage } from "./features/Calculator/pages/CalculatorPage";
 import { TicTacToePage } from "./features/TicTacToe/pages/TicTacToePage";
+import ToDoListPage from "./features/ToDoList/pages/ToDoListPage";
 
 export const router = createHashRouter(
   [
@@ -46,6 +47,10 @@ export const router = createHashRouter(
     {
       path: "/tic-tac-toe",
       element: <TicTacToePage />,
+    },
+    {
+      path: "/to-do-list",
+      element: <ToDoListPage />,
     },
     {
       path: "*",
