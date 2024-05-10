@@ -1,8 +1,6 @@
 # new-react-app
 
-30 Projects in a Week
-
-All the projects are using:
+My Mini-Projects using React!
 
 - Vite React/Typescript
 - TailwindCss
@@ -11,4 +9,4 @@ All the projects are using:
 - React Icons
 - React Query
 
-[Live Demo](https://30-projects-in-a-week.netlify.app/)
+[Live Demo](https://gdp-dev-miniprojects.netlify.app/)

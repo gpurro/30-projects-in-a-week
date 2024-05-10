@@ -12,7 +12,7 @@ export const Square = ({
   endOfGame,
 }: SquareProps) => {
   const handleOnClick = () => {
-    updateSquares(index, value);
+    updateSquares(index);
   };
 
   return (
