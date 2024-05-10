@@ -6,12 +6,12 @@ interface ButtonPanelProps {
 //recive the props -> handleClick funcion using object destructuring {handleClick}
 export default function ButtonPanel({ handleClick }: ButtonPanelProps) {
   return (
-    <div className=" bg-[#858694] flex flex-row flex-wrap flex-1 w-full ">
+    <div className=" flex flex-row flex-wrap flex-1 w-full ">
       <div className=" w-full mb-[1px] flex flex-auto ">
         {/* Handle Click is passed down to the Button Component */}
-        <Button name="AC" clickHandler={handleClick} />
-        <Button name="+/-" clickHandler={handleClick} />
-        <Button name="%" clickHandler={handleClick} />
+        <Button name="AC" clickHandler={handleClick} dark />
+        <Button name="+/-" clickHandler={handleClick} dark />
+        <Button name="%" clickHandler={handleClick} dark />
         <Button name="÷" clickHandler={handleClick} orange />
       </div>
       <div className=" w-full mb-[1px] flex flex-auto ">
@@ -34,7 +34,7 @@ export default function ButtonPanel({ handleClick }: ButtonPanelProps) {
       </div>
       <div className=" w-full mb-[1px] flex flex-auto ">
         <Button name="0" clickHandler={handleClick} wide />
-        <Button name="." clickHandler={handleClick} />
+        <Button name="." clickHandler={handleClick} dark />
         <Button name="=" clickHandler={handleClick} orange />
       </div>
     </div>

@@ -21,7 +21,7 @@ export const Calculator = () => {
   }
 
   return (
-    <div className=" bg-[#4682b4] text-white flex flex-col items-center justify-center h-full overflow-hidden  ∫">
+    <div className=" bg-[#f0f0f0] text-white flex flex-col items-center justify-center h-full overflow-hidden border-black shadow-md border rounded-xl p-2 ">
       {/* State is sent to the display component */}
       <Display value={state.next || state.total || "0"} />
 
