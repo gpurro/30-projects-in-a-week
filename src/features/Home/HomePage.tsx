@@ -29,6 +29,9 @@ export const HomePage = () => {
           <li>
             <Link to="/calculator">Calculator</Link>
           </li>
+          <li>
+            <Link to="/tic-tac-toe">Tic Tac Toe</Link>
+          </li>
         </ul>
       </div>
     </div>
