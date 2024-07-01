@@ -10,3 +10,5 @@ My Mini-Projects using React!
 - React Query
 
 [Live Demo](https://gdp-dev-miniprojects.netlify.app/)
+
+These mini-projects... 
