@@ -11,4 +11,4 @@ My Mini-Projects using React!
 
 [Live Demo](https://gdp-dev-miniprojects.netlify.app/)
 
-These mini-projects are... to be said...
+These mini-projects are... to be said here!
